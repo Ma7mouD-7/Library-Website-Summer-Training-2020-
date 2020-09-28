@@ -1,0 +1,390 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/Backs1.jpeg");
+    font-size: 16px;
+    color: #777;
+    font-weight: 300;
+    font-family: 'Oxygen', sans-serif;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container
+{
+    width: 82%;
+    margin: 0 auto;
+}
+
+header .container
+{
+    background-color: #f44336
+}
+
+header
+{
+    /*background-image: url("../images/a (1).jpg");*/
+    background-size: cover;
+}
+
+header .logo
+{
+    background-color: #f44336;
+    display: inline-block;
+}
+
+header .logo img
+{
+    margin: 0 5px -10px 6px;
+    padding: 0px 6px 0px;
+}
+
+header .bar
+{
+    background-color: #f44336;
+    width : 77%;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+header .bar p
+{
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    padding: 3px;
+    display: inline;
+}
+
+header .bar p.LR
+{
+    position: relative;
+    left: 50%;
+}
+
+header .bar .LR a
+{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header .bar input
+{
+    left: 47%;
+    margin: 2px 0 2px 0;
+    font-family: 'Oxygen', sans-serif;
+    font-size: small;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+header .bar input:focus
+{
+    box-shadow:none;
+}
+
+header .bar span
+{
+    margin: 0 0 0 -25px;
+    color: #f44336;
+    left: 47%;
+    position: relative;
+    text-decoration: none;
+}
+
+header .bar span a
+{
+    color: #f44336;
+}
+
+header .navbar
+{
+    background-color: white;
+    display: block;
+    width: 100%;
+    margin: 0 0px 0 2px;
+    padding: 20px 0 0px 0;
+}
+
+header .navbar ul
+{
+    list-style: none;
+    margin: 0px 0 0px 0;
+    padding: 0px 0 23px;
+}
+
+header .navbar ul li
+{
+    display: inline;
+    padding: 10px 20px 10px;
+    margin: 0px 0 0px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header .navbar ul li:hover, header .navbar ul li:focus, header .navbar ul li:active
+{
+    background-color: #f3f1f1;
+}
+
+header .navbar ul li a
+{
+    text-decoration: none;
+    color: #777;
+}
+    
+.contain
+{
+    margin: 50px auto;
+    width: 89%;
+}
+
+header .slider
+{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header .slider h3
+{
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+header .slider h1
+{
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+header .slider p
+{
+    font-size: 17px;
+    margin: 0 0 40px;
+    padding: 0 30px;
+    text-transform: none;
+}
+
+header .slider a
+{
+    display: inline-block;
+    padding: 10px 30px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    transition: 0.2s ease;
+}
+
+header .slider a:hover
+{
+    background-color: #f44336;
+    font-weight: 700;
+    border: solid 3px #fff;
+    padding: 15px 35px;
+}
+.background
+{
+    background-image: url(../images/Backs.jpeg);
+    filter: blur(3px);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+}
+#signup-box
+{
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 800px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.left-box
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 55%;
+    height: 400px;    
+}
+
+h1
+{
+    margin: 0 0 20px 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.left-box input[type="text"],
+.left-box input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 90%;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+.left-box input[type="text"]:focus,
+.left-box input[type="password"]:focus
+{
+    font-size: 20px;
+    transition: 0.4s ease;
+}
+
+input[type="submit"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #f44336;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active
+{
+    background: #ff5722;
+    border: none;
+    transition: 0.2s ease;
+}
+
+input[type="checkbox"]
+{
+    margin-bottom: 15px;
+}
+
+label
+{
+    font-size: smaller;
+}
+
+label a
+{
+    color: #f44336;
+}
+
+label a:hover, label a:active
+{
+    color: #ff5722;
+}
+
+.right-box
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 45%;
+    height: 400px;
+    background-image: url(../images/Library1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.or
+{
+    position: absolute;
+    top: 180px;
+    left: 52.5%;
+    width: 40px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    text-align: center;
+}
+
+.right-box .signupwith
+{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+button.social
+{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+    margin: 10px 35px;
+}
+
+.facebook
+{
+    background: #32508e;
+}
+.facebook:hover
+{
+    background: #4270A1;
+}
+
+.twitter
+{
+    background: #55acee;
+}
+.twitter:hover
+{
+    background: #78C0F7;
+}
+
+.google
+{
+    background: #dd4b39;
+}
+.google:hover
+{
+    background: #E75C4B;
+}
+
+
+
+
+

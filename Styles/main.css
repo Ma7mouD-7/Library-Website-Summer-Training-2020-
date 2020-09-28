@@ -1,0 +1,2293 @@
+*
+{
+	font-family: 'Oxygen', sans-serif;
+    transition: 0.5s ease;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #777;
+    font-weight: 300;
+    perspective: 500px;
+}
+
+.container
+{
+	width: 82%;
+	margin: 0 auto;
+}
+
+header .container
+{
+	background-color: #f44336
+}
+
+header
+{
+	background-image: url("../images/a (1).jpg");
+	background-size: cover;
+}
+
+header .logo
+{
+	background-color: #f44336;
+    display: inline-block;
+}
+
+header .logo img
+{
+	margin: 0 5px -10px 6px;
+    padding: 0px 6px 0px;
+}
+
+header .bar
+{
+	background-color: #f44336;
+	width : 77%;
+	display: inline-block;
+	margin: 0 -4px;
+}
+
+header .bar p
+{
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    padding: 3px;
+    display: inline;
+}
+
+header .bar p.LR
+{
+    position: relative;
+    left: 48%;
+}
+
+header .bar .LR a
+{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header .bar input
+{
+    left: 47%;
+    margin: 2px 0 2px 0;
+    font-family: 'Oxygen', sans-serif;
+    font-size: small;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+header .bar input:focus
+{
+	box-shadow:none;
+}
+
+header .bar span
+{
+    margin: 0 0 0 -25px;
+    color: #f44336;
+    left: 47%;
+    position: relative;
+    text-decoration: none;
+}
+
+header .bar span a
+{
+    color: #f44336;
+}
+
+header .navbar
+{
+	background-color: white;
+	display: block;
+	width: 100%;
+	margin: 0 0px 0 2px;
+    padding: 20px 0 0px 0;
+}
+
+header .navbar ul
+{
+    list-style: none;
+    margin: 0px 0 0px 0;
+    padding: 0px 0 23px;
+}
+
+header .navbar ul li
+{
+	display: inline;
+    padding: 10px 20px 10px;
+    margin: 0px 0 0px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header .navbar ul li:hover, header .navbar ul li:focus, header .navbar ul li:active
+{
+	background-color: #f3f1f1;
+}
+
+header .navbar ul li a
+{
+	text-decoration: none;
+	color: #777;
+}
+	
+.contain
+{
+    margin: 50px auto;
+    width: 89%;
+}
+
+header .slider
+{
+	color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header .slider h3
+{
+	font-size: 35px;
+    margin-top: 100px;
+}
+
+header .slider h1
+{
+	font-size: 70px;
+    margin: 30px 0;
+}
+
+header .slider p
+{
+	font-size: 17px;
+    margin: 0 0 40px;
+    padding: 0 30px;
+    text-transform: none;
+}
+
+header .slider a
+{
+    display: inline-block;
+    padding: 10px 30px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 50px;
+	transition: 0.2s ease;
+}
+
+header .slider a:hover
+{
+	background-color: #f44336;
+	font-weight: 700;
+    border: solid 3px #fff;
+    padding: 15px 35px;
+}
+
+.main_sections .intro h2 
+{
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.main_sections .intro p
+{
+    margin-bottom: -2px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.main_sections .intro .break p
+{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.main_sections .intro .break p i
+{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 8px;
+}
+
+.main_sections .container .Sections div.sec 
+{
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    margin: 10px 0;
+}
+
+.main_sections .container .Sections div.sec i
+{
+    font-size: 35px;
+    font-weight: 700;
+    border: 1px solid #ccc;
+    padding: 24px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.main_sections .container .Sections div.sec h3
+{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.main_sections .container .Sections div.sec a
+{
+    text-decoration: none;
+    color: #777;
+    font-weight: 700;
+}
+
+.main_sections .container .Sections div.sec p
+{
+    padding: 0 100px;
+}
+
+.main_sections .container .Sections div.sec hr
+{
+	width: 50%;
+    filter: opacity(0.5);
+}
+
+.Categories
+{
+	background-color: #444;
+	background-image: url("https://i.ibb.co/6JJ7sDk/top-categories-bg.png");
+	background-size: cover;
+	text-align: center;
+	background-position: center;
+}
+
+
+.Categories .intro h2 
+{
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+    margin:30px 0;
+    padding: 30px 0 0;
+}
+
+.Categories .intro p
+{
+    margin-bottom: -2px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.Categories .intro .break p
+{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.Categories .intro .break p i
+{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 8px;
+}
+
+.Categories .slider .list
+{
+	width: 65%;
+    margin: 20px auto;
+}
+
+.Categories .slider .list ul
+{
+    list-style: none;
+    margin: 35px 0px 0px 13px;
+    padding: 12px 0px 12px 0;
+    background-color: white;
+}
+
+.Categories .slider .list ul li
+{
+	display: inline;
+    padding: 10px 20px 10px;
+    margin: 0px 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 144px;
+    border-left: 1px solid #cacacaad;
+    border-right: 1px solid #cacacaad;
+}
+
+.Categories .slider .list ul li a
+{
+	text-decoration: none;
+	color: #777;
+}
+
+.Categories .slider .list ul li:hover, .Categories .slider .list ul li:focus, .Categories .slider .list ul li:active
+{
+	background-color: #f3f1f1;
+}
+
+.Categories .slider .menu
+{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+    margin: 20px auto;
+}
+
+.Categories .slider .menu #Novels
+{
+	width: 94%;
+	height: 90%;
+	margin: auto;
+}
+
+.Categories .slider .menu #Science
+{
+	width: 94%;
+	height: 90%;
+	margin: auto;
+	display: none;
+}
+
+.Categories .slider .menu #Poetry
+{
+	width: 94%;
+	height: 90%;
+	margin: auto;
+	display: none;
+}
+
+.Categories .slider .menu #Short
+{
+	width: 94%;
+	height: 90%;
+	margin: auto;
+	display: none;
+}
+
+.Categories .slider .menu #Children
+{
+	width: 94%;
+	height: 90%;
+	margin: auto;
+	display: none;
+}
+
+.card, .cardtwo, .cardthree, .cardfr{
+  margin-right: 10px;
+display:inline-block;
+position: relative;
+float:left;
+width:50%;
+height:500px;
+background-color: lightgrey;
+padding: 20px;
+box-sizing: border-box;
+border: 20px
+}
+.cardfv, .cardsx, .cardsv, .cardght{
+display:inline-block;
+position: relative;
+margin-right: 10px;
+float:left;
+width:50%;
+height:500px;
+background-color: lightgrey;
+padding: 20px;
+box-sizing: border-box;
+border: 20px
+}
+.cardnn, .cardtn, .cardvn, .cardtv{
+  margin-right: 10px;
+display:inline-block;
+position: relative;
+float:left;
+width:50%;
+height:500px;
+background-color: lightgrey;
+padding: 20px;
+box-sizing: border-box;
+border: 20px
+}
+.cardth, .cardfn, .cardftn, .cardsxn{
+  margin-right: 10px;
+display:inline-block;
+position: relative;
+float:left;
+width:50%;
+height:500px;
+background-color: lightgrey;
+padding: 20px;
+box-sizing: border-box;
+border: 20px
+}
+.cardsvn, .cardetn, .cardnin, .cardtwn{
+  margin-right: 10px;
+display:inline-block;
+position: relative;
+float:left;
+width:50%;
+height:500px;
+background-color: lightgrey;
+padding: 20px;
+box-sizing: border-box;
+border: 20px
+}
+
+.card {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card .front {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.card .front img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.card .front span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.card .front span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.card .back {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.card .back p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.card .back p.Author, .card .back p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardtwo {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardtwo:hover {
+  transform: rotateY(180deg);
+}
+
+.cardtwo>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardtwo .fronttwo {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardtwo .fronttwo img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardtwo .fronttwo span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardtwo .fronttwo span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardtwo .backtwo {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardtwo .backtwo p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardtwo .backtwo p.Author, .cardtwo .backtwo p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardthree {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardthree:hover {
+  transform: rotateY(180deg);
+}
+
+.cardthree>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardthree .frontthree {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardthree .frontthree img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardthree .frontthree span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardthree .frontthree span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardthree .backthree {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardthree .backthree p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardthree .backthree p.Author, .cardthree .backthree p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardfr {
+    width: 230px;
+    height: 330px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardfr:hover {
+  transform: rotateY(180deg);
+}
+
+.cardfr>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardfr .frontfr {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardfr .frontfr img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardfr .frontfr span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardfr .frontfr span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardfr .backfr {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardfr .backfr p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardfr .backfr p.Author, .cardfr .backfr p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardfv {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardfv:hover {
+  transform: rotateY(180deg);
+}
+
+.cardfv>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left:0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardfv .frontfv {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardfv .frontfv img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardfv .frontfv span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardfv .frontfv span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardfv .backfv {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardfv .backfv p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardfv .backfv p.Author, .cardfv .backfv p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardsx {
+     width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardsx:hover {
+  transform: rotateY(180deg);
+}
+
+.cardsx>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left:0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardsx .frontsx {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardsx .frontsx img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardsx .frontsx span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardsx .frontsx span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardsx .backsx {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardsx .backsx p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardsx .backsx p.Author, .cardsx .backsx p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardsv {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardsv:hover {
+  transform: rotateY(180deg);
+}
+
+.cardsv>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardsv .frontsv {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardsv .frontsv img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardsv .frontsv span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardsv .frontsv span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardsv .backsv {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardsv .backsv p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardsv .backsv p.Author, .cardsv .backsv p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardght {
+    width: 230px;
+    height: 330px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardght:hover {
+  transform: rotateY(180deg);
+}
+
+.cardght>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardght .frontght {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardght .frontght img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardght .frontght span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardght .frontght span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardght .backght {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardght .backght p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardght .back p.Author, .cardght .backght p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardnn {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardnn:hover {
+  transform: rotateY(180deg);
+}
+
+.cardnn>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardnn .frontnn {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardnn .frontnn img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardnn .frontnn span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardnn .frontnn span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardnn .backnn {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardnn .backnn p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardnn .backnn p.Author, .cardnn .backnn p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+
+.cardtn {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardtn:hover {
+  transform: rotateY(180deg);
+}
+
+.cardtn>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardtn .fronttn {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardtn .fronttn img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardtn .fronttn span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardtn .fronttn span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardtn .backtn {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardtn .backtn p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardtn .backtn p.Author, .cardtn .backtn p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardvn {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardvn:hover {
+  transform: rotateY(180deg);
+}
+
+.cardvn>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardvn .frontvn {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardvn .frontvn img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardvn .frontvn span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardvn .frontvn span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardvn .backvn {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardvn .backvn p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardvn .backvn p.Author, .cardvn .backvn p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardtv {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardtv:hover {
+  transform: rotateY(180deg);
+}
+
+.cardtv>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardtv .front {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardtv .fronttv img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardtv .fronttv span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardtv .fronttv span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardtv .backtv {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardtv .backtv p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardtv .backtv p.Author, .cardtv .backtv p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardth {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardth:hover {
+  transform: rotateY(180deg);
+}
+
+.cardth>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardth .frontth {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardth .frontth img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardth .frontth span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardth .frontth span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardth .backth {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardth .backth p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardth .backth p.Author, .cardth .backth p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardfn {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardfn:hover {
+  transform: rotateY(180deg);
+}
+
+.cardfn>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardfn .frontfn {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardfn .frontfn img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardfn .frontfn span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardfn .frontfn span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardfn .backfn {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardfn .backfn p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardfn .backfn p.Author, .cardfn .backfn p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardftn {
+    width: 230px;
+    height: 330px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardftn:hover {
+  transform: rotateY(180deg);
+}
+
+.cardftn>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardftn .frontftn {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardftn .frontftn img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardftn .frontftn span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardftn .frontftn span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardftn .backftn {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardftn .backftn p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardftn .backftn p.Author, .cardftn .backftn p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardsxn {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardsxn:hover {
+  transform: rotateY(180deg);
+}
+
+.cardsxn>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardsxn .frontsxn {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardsxn .frontsxn img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardsxn .frontsxn span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardsxn .frontsxn span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardsxn .backsxn {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardsxn .backsxn p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardsxn .backsxn p.Author, .cardsxn .backsxn p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardsvn {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardsvn:hover {
+  transform: rotateY(180deg);
+}
+
+.cardsvn>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardsvn .frontsvn {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardsvn .frontsvn img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardsvn .frontsvn span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardsvn .frontsvn span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardsvn .backsvn {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardsvn .backsvn p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardsvn .backsvn a {
+  font-size: 13px;
+  padding: 7px ;
+  margin: 5px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.cardsvn .backsvn p.Author, .cardsvn .backsvn p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardetn {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardetn:hover {
+  transform: rotateY(180deg);
+}
+
+.cardetn>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardetn .frontetn {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardetn .frontetn img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.carden .frontetn span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardetn .frontetn span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardetn .backetn {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardetn .backetn p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardetn .backetn p.Author, .cardetn .backetn p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardnin {
+    width: 230px;
+    height: 330px;
+    margin-right: 35px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardnin:hover {
+  transform: rotateY(180deg);
+}
+
+.cardnin>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardnin .frontnin {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardnin .frontnin img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardnin .frontnin span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardnin .frontnin span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardnin .backnin {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardnin .backnin p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardnin .backnin p.Author, .cardnin .backnin p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+.cardtwn{
+    width: 230px;
+    height: 330px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    border-radius: 100%;
+    margin-top: 75px;
+}
+
+.cardtwn:hover {
+  transform: rotateY(180deg);
+}
+
+.cardtwn>div {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cardtwn .fronttwn {
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+
+.cardtwn .fronttwn img {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0
+}
+
+.cardtwn .frontwn span {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(120, 255, 86);
+  transition: all .5s ease-in-out;
+}
+
+.cardtwn .fronttwn span:hover {
+  display: inline-block;
+  margin-top: 32px;
+  color: rgb(139, 255, 240);
+}
+
+.cardtwn .backtwn {
+  z-index: 2;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.cardtwn .backtwn p.info {
+  font-size: 13px;
+  padding: 7px 0 0;
+  margin: 0;
+}
+
+.cardtwn .backtwn p.Author, .cardtwn .backtwn p.Price {
+  font-size: 17px;
+  margin: 0;
+}
+
+.Categories .slider .menu p.Author, 
+.Categories .slider .menu p.Price,
+.Categories .slider .menu p.Authortwo, 
+.Categories .slider .menu p.Pricetwo,
+.Categories .slider .menu p.Authorthree, 
+.Categories .slider .menu p.Pricethree,
+.Categories .slider .menu p.Authorfr, 
+.Categories .slider .menu p.Pricefr,
+.Categories .slider .menu p.Authorfv, 
+.Categories .slider .menu p.Pricefv,
+.Categories .slider .menu p.Authorsx, 
+.Categories .slider .menu p.Pricesx,
+.Categories .slider .menu p.Authorsv, 
+.Categories .slider .menu p.Pricesv,
+.Categories .slider .menu p.Authorght, 
+.Categories .slider .menu p.Priceght,
+.Categories .slider .menu p.Authortv, 
+.Categories .slider .menu p.Pricetv,
+.Categories .slider .menu p.Authorth, 
+.Categories .slider .menu p.Priceth,
+.Categories .slider .menu p.Authorfn, 
+.Categories .slider .menu p.Pricefn,
+.Categories .slider .menu p.Authorftn, 
+.Categories .slider .menu p.Priceftn,
+.Categories .slider .menu p.Authorsvn, 
+.Categories .slider .menu p.Pricesvn,
+.Categories .slider .menu p.Authoretn, 
+.Categories .slider .menu p.Priceetn,
+.Categories .slider .menu p.Authornin, 
+.Categories .slider .menu p.Pricenin,
+.Categories .slider .menu p.Authortwn, 
+.Categories .slider .menu p.Pricetwn,
+.Categories .slider .menu p.Authorftn, 
+.Categories .slider .menu p.Pricenftn,
+.Categories .slider .menu p.Authorsxn, 
+.Categories .slider .menu p.Pricesxn
+{
+    font-size: 17px;
+    margin:0 0 11px;
+}
+
+.Categories .slider .menu p.info,
+.Categories .slider .menu p.infotwo,
+.Categories .slider .menu p.infothree,
+.Categories .slider .menu p.infofr,
+.Categories .slider .menu p.infofv,
+.Categories .slider .menu p.infosx,
+.Categories .slider .menu p.infosv,
+.Categories .slider .menu p.infoght,
+.Categories .slider .menu p.infotv,
+.Categories .slider .menu p.infoth,
+.Categories .slider .menu p.infofn,
+.Categories .slider .menu p.infoftn,
+.Categories .slider .menu p.infosvn,
+.Categories .slider .menu p.infoetn,
+.Categories .slider .menu p.infonin,
+.Categories .slider .menu p.infotwn,
+.Categories .slider .menu p.infoftn,
+.Categories .slider .menu p.infotwn
+{
+    font-size: 13px;
+    padding: 7px 0 0;
+    margin: 0;
+}
+
+.Categories .slider > a
+{
+    display: inline-block;
+    padding: 10px 30px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 20px;
+	transition: 0.2s ease;
+}
+
+.Categories .slider > a:hover
+{
+	background-color: #f44336;
+	font-weight: 700;
+    border: solid 3px #fff;
+    padding: 15px 35px;
+}
+
+.book_month
+{
+	background-color: #efefef;
+	background-size: cover;
+	color: black;
+      height: 620px;
+}
+
+.book_month h1
+{
+	text-align: center;
+    margin-top: 0;
+    padding-top: 20px;	
+}
+
+.book_month .container 
+{
+	width: 65%;
+}
+
+.book_month .container div
+{
+	width: 50%;
+	margin: 0;
+	display: inline;
+}
+
+.book_month .container img
+{
+	margin: 10px 0;
+}
+
+.book_month .container div.info
+{
+	float: right;
+}
+
+.sale
+{
+	background-image: url("https://i.ibb.co/YRPZWn9/pettern.png");
+    text-align: center;
+	background-position: center;
+	background-color: #363636;
+	color: white;
+}
+
+.sale h1
+{
+	margin-top: 0;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.sale p
+{
+    font-size: 25px;
+}
+
+.sale a
+{
+    display: inline-block;
+    padding: 10px 30px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 50px;
+	transition: 0.2s ease;
+}
+
+.sale a:hover
+{
+	background-color: #f44336;
+	font-weight: 700;
+    border: solid 3px #fff;
+    padding: 15px 35px;
+}
+
+.author_month
+{
+	background-color: #efefef;
+	background-size: cover;
+	color: black;
+}
+
+.author_month h1
+{
+	text-align: center;
+    margin-top: 0;
+    padding-top: 20px;	
+}
+
+.author_month .container 
+{
+	width: 65%;
+}
+
+.author_month .container div
+{
+	width: 50%;
+	margin: 0;
+	display: inline;
+}
+
+.author_month .container img
+{
+	margin: 10px 0;
+}
+
+.author_month .container div.info
+{
+	float: left;
+	width: 65%;
+}
+
+.blog
+{
+	background-color: #aaa;
+	background-size: cover;
+}
+
+.subscribe
+{
+	background-color: #fff;
+	background-size: cover;
+	text-align: center;
+}
+
+.subscribe .containa
+{
+	margin: 0px auto;
+    padding: 10px;
+    background: #ccc;
+    color: black;
+}
+
+.subscribe input[type=text]
+{
+	font-size: larger;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 5px 30px;
+    text-align: left;
+    width: 500px;
+}
+
+.subscribe input[type=submit]
+{
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 20px;
+    text-align: left;
+    background: #f44336;
+	font-size: larger;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.subscribe input[type=submit]:hover
+{
+	color: #f44336;
+    background: #000;
+}
+
+
+footer
+{
+    background: #eee;
+    padding: 80px 0 0;
+    width: 100%;
+    float: left;
+}
+
+footer .about
+{
+	width: 25%;
+    display: inline-block;
+}
+
+footer .about h4
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-top: 0;	
+}
+
+footer .about h6
+{
+	color: #464646;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    padding-right: 50px;
+    line-height: 12px;
+}
+
+footer .about h5
+{
+	color: #464646;
+    line-height: 20px;
+    margin: 0;
+    font-weight: 300;
+    padding-right: 50px;
+    line-height: 24px;
+}
+
+footer .about ul
+{
+	margin: 0 15px;
+    padding: 0px;
+}
+
+footer .about ul li
+{
+	margin-bottom: 5px;
+	color: #464646;
+    font-size: 12px;
+}
+
+footer .navigation
+{
+	width: 22%;
+    display: inline-block;
+}
+
+footer .navigation h4
+{
+    font-size: 24px;
+    margin-bottom: 14px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+footer .navigation ul
+{
+	margin: 0px;
+    padding: 0px;
+}
+
+footer .navigation ul li
+{
+	margin-bottom: 5px;
+    list-style: none;
+}
+
+footer .navigation ul li a
+{
+	color: #464646;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer .contact-us
+{
+	float: right;
+	width: 44%;
+}
+
+footer .contact-us h3
+{
+    margin: 0px;
+    padding: 0px;
+	font-size: 24px;
+    margin-bottom: 8px;
+}
+
+
+footer .contact-us h6
+{
+	margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+footer .contact-us input
+{
+	width: 44%;
+    height: 42px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 0;
+    float: left;
+    margin-right: 20px;
+}
+
+footer .contact-us textarea
+{
+	width: 92%;
+    resize: none;
+    height: 100px;
+    border: 0;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer .contact-us button
+{
+    opacity: 1;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 20px 11px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    border-radius: 2px;
+    background: #f44336;
+    border: 2px solid #f44336;
+}
+
+footer > .container
+{
+	height: 450px;
+}
+
+footer .footer
+{
+    background: #f44336;
+    padding: 20px;
+    color: white;
+}
+
+footer .footer p
+{
+    display: inline;
+}
+
+footer .footer .social-icon
+{
+	float: right;
+}
