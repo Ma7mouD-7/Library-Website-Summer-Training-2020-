@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title> 
+    <meta name="viewport" content="width=device-width",initial-scale=1>  
+    <link rel="stylesheet" type="text/css" href="styles/signinstyle.css">
+    <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+        <script type = "text/javascript">
+                function validate() {
+                  var valid = true;
+                 if( document.loginform.email.value == "" ) {
+                    alert( "Please enter your email!" );
+                    document.loginform.email.focus() ;
+                    valid = false;
+                 }
+                 else if( document.loginform.password.value == "" ) {
+                    alert( "Please enter your Password!" );
+                    document.loginform.password.focus() ;
+                    valid = false;
+                 }
+                 else {
+                 	if( document.loginform.email.value.indexOf("@") == -1 
+                 	||  document.loginform.email.value.indexOf(".") == -1) {
+                	    alert( "Please enter VALID E-mail" );
+            	        document.loginform.password.focus() ;
+         	           	valid = false;
+                 	}
+                 }
+                 if (valid && document.loginform.email.value == "admin@admin.com" ){
+                    setTimeout(function() {window.location = "my project.html" });
+                 }
+                 else if (valid){
+                    setTimeout(function() {window.location = "main_login.html" });
+                 }
+                 return valid ;
+              }
+          </script>
+
+</head>
+<body>
+	<header>
+		<div class="banner">
+			<div class="container">
+				<div class="logo">
+					<img src="https://i.ibb.co/gThQCST/logo-2.png">
+				</div>
+				<div class="bar">
+					<p>Welcome to  our Library</p>
+					<input type="text" name="search" placeholder="Search....">
+					<span><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></span>
+					<p class="LR"><a href="Signin.html">Login</a> - <a href="Signup.html">Register</a></p>
+					<div class="navbar">
+						<ul>
+							<li><a href="main.html">Home</a></li>
+							<li><a href="main.html#section">sections</a></li>
+							<li><a href="main.html#Category">Categories</a></li>
+							<li><a href="main.html#bom">B.O.M</a></li>
+							<li><a href="main.html#aom">A.O.M</a></li>
+							<li><a href="main.html#sale">Sales</a></li>
+							<li><a href="main.html#">blog</a></li>
+							<li><a href="main.html#footer">contact us</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</header>
+
+    <div class="login-box">
+      <div class="left-box"></div>
+      <div class="right-box">
+        <h1>Login</h1>
+        <form name="loginform" onsubmit = "return(validate());" method="post">
+            <input type="text" name="email" class="email" placeholder="Email" >
+            <input type="password" name="password" class="password" placeholder="Password" >  
+            
+            <input type="checkbox" name="Remember"/>
+            <label for="Remember"> Remember me </label><br>
+            <input type="submit" name="signin-button" value = "Submit" /><br>
+
+        </form>     
+        <div class="social">
+            <ul>
+                      <li><p>Or login with  <br></p></li>
+                      <li><a href="#"><span class="fb"><img src="images/Fb.png"></span></a></li>
+                      <li><a href="#"><span class="twit"><img src="images/Tw.png"></span></a></li>
+                      <li><a href="#"><span class="google"><img src="images/G+.png"></span></a></li>
+            </ul> 
+        </div>
+
+        <div class="info">
+              <p>Don't have an account? <a href="Signup.html">Register.</a><br>Forgot <a href="#">password?</a></p>
+        </div>
+        
+      </div>
+    </div>
+</body>    
+</html>

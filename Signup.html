@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title> 
+    <meta name="viewport" content="width=device-width",initial-scale=1>  
+    <link rel="stylesheet" type="text/css" href="styles/signupstyle.css">
+    <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+    <script type = "text/javascript">
+            function validate() {
+              var valid = true;
+              if( document.signupform.username.value == "" ) {
+                  alert( "Please enter username!" );
+                  document.signupform.username.focus() ;
+                  valid = false;
+              }
+              else if( document.signupform.email.value == "" ) {
+                  alert( "Please enter email!" );
+                  document.signupform.email.focus() ;
+                  valid = false;
+              }
+              else if( document.signupform.password.value == "" ) {
+                  alert( "Please enter Password!" );
+                  document.signupform.password.focus() ;
+                  valid = false;
+              }
+              else if( document.signupform.password2.value == "" ) {
+                  alert( "Please confirm your Password!" );
+                  document.signupform.password2.focus() ;
+                  valid = false;
+              }
+              else if( document.signupform.terms.checked == false ) {
+                  alert( "Please confirm your agree!" );
+                  document.signupform.terms.focus() ;
+                  valid = false;
+              }
+              if (valid){
+                    alert( "You have signed up successfully, you will be directed to LOGIN page")
+                    setTimeout(function() {window.location = "Signin.html" });
+                 }
+              return valid ;
+          }
+      </script>
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <div class="container">
+        <div class="logo">
+          <img src="https://i.ibb.co/gThQCST/logo-2.png">
+        </div>
+        <div class="bar">
+          <p>Welcome to  our Library</p>
+          <input type="text" name="search" placeholder="Search....">
+          <span><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></span>
+          <p class="LR"><a href="Signin.html">Login</a> - <a href="Signup.html">Register</a></p>
+          <div class="navbar">
+            <ul>
+              <li><a href="main.html">Home</a></li>
+              <li><a href="#section">sections</a></li>
+              <li><a href="#Category">Categories</a></li>
+              <li><a href="#bom">B.O.M</a></li>
+              <li><a href="#aom">A.O.M</a></li>
+              <li><a href="#sale">Sales</a></li>
+              <li><a href="#">blog</a></li>
+              <li><a href="#footer">contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <div id="signup-box">
+      <div class="left-box">
+        <h1> Sign Up</h1>
+          <form name="signupform" onsubmit = "return(validate());" method="post">
+              <input type="text" name="username" placeholder="Username" />
+              <input type="text" name="email" placeholder="Email"/>
+              <input type="password" name="password" placeholder="Password"/>
+            
+              <input type="password" name="password2" placeholder="Retype password" />
+
+              <input type="checkbox" name="terms"/ >
+              <label for="terms"> agree to our <a href="#">Terms & Privacy.</a> </label><br>
+            
+              <input type="submit" name="signup-button" value = "Submit" />
+          </form>
+        </div>
+        <div class="right-box">
+          <span class="signupwith">Sign up with<br/>Social Network     </span>
+          
+          <a href="#"><button class="social facebook">Sign up with <strong>Facebook</strong></button> </a>   
+          <a href="#"><button class="social twitter">Sign up with <strong>Twitter</strong></button> </a>
+          <a href="#"><button class="social google">Sign up with <strong>Google+</strong></button> </a>
+              
+        
+        </div>
+        <div class="or">OR</div>
+    </div>
+    
+</body>    
+</html>

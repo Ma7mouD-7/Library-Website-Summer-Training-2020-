@@ -1,0 +1,66 @@
+
+.manage-book-title{
+	text-align: center;
+	font-size: 40px;
+
+}
+.admin-content{
+	background: transparent;
+	z-index: 2;
+}
+.admin-content .add-book{
+	font-size: 20px;
+	padding: 13px;
+	background: #322D2D;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+}
+.admin-content .manage-book{
+	font-size: 20px;
+	padding: 13px;
+	background: #322D2D;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+}
+.manage-book:hover{
+	background: #544949;
+	color: burlywood;
+
+}
+.add-book:hover{
+	background: #544949;
+	color: burlywood;
+}
+.add-user-title{
+	padding: 20px;
+}
+label{
+	margin-left: 0px;
+	font-size: 23px;
+	margin-bottom: 20px;
+	margin-bottom: 50px;
+
+}
+.title-text{
+	text-align: center;
+	width: 450px;
+	height: 33px;
+	margin-left: 0px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+.add{
+	width: 450px;
+	height: 43px;
+	margin-left: 0px;
+	padding: 15px;
+	margin-bottom: 10px;
+	background: #322D2D;
+}
+.add:hover{
+	background: #544949;
+}
+
+
